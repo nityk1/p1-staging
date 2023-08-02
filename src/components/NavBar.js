@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import { ChevronDown } from "react-bootstrap-icons";
 
 function NavBar() {
   return (
@@ -12,10 +13,10 @@ function NavBar() {
           <li><Link to="portfolio">Portfolio</Link></li>
           <li><Link to="team">Team</Link></li>
           <li><Link to="blog">Blog</Link></li>
-          <li className="dropdown"><Link to="#"><span>Dropdown</span> <i className="bi bi-chevron-down dropdown-indicator"></i></Link>
+          <li className="dropdown"><Link to="#"><span>Dropdown</span><ChevronDown/></Link>
             <ul>
               <li><Link to="#">Dropdown 1</Link></li>
-              <li className="dropdown"><Link to="#"><span>Deep Dropdown</span> <i className="bi bi-chevron-down dropdown-indicator"></i></Link>
+              <li className="dropdown"><Link to="#"><span>Deep Dropdown</span><ChevronDown/></Link>
                 <ul>
                   <li><Link to="#">Deep Dropdown 1</Link></li>
                   <li><Link to="#">Deep Dropdown 2</Link></li>

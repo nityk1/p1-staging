@@ -277,7 +277,7 @@ section {
 --------------------------------------------------------------*/
 @media (min-width: 1280px) {
   .navbar {
-    padding: 0;
+    padding: 0!important;
   }
 
   .navbar ul {
@@ -304,6 +304,7 @@ section {
     color: rgba(255, 255, 255, 0.6);
     white-space: nowrap;
     transition: 0.3s;
+    text-decoration: none;
   }
 
   .navbar a i,
@@ -645,6 +646,7 @@ section {
   color: #29486a;
   font-family: var(--font-secondary);
 }
+
 
 .why-us .swiper {
   margin: 140px 140px 120px 140px;
